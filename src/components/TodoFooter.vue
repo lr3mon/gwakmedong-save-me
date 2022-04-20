@@ -1,12 +1,7 @@
 <template>
   <div class="clearAllContainer">
     <span class="clearAllBtn" @click="clearTodo">Clear All</span>
-    
-    
-    </div>
-  
-  
-
+  </div>
 </template>
 
 <script>
@@ -14,8 +9,7 @@ export default {
   methods: {
     clearTodo() {
       this.$emit('removeAll');
-    },
-    
+    }
   }
 }
 </script>
@@ -33,17 +27,4 @@ export default {
     color: #e20303;
     display: block;
   }
-  .new{
-    width: 8.5rem;
-    height: 50px;
-    line-height: 50px;
-    background-color: white;
-    border-radius: 5px;
-    margin: 0 auto;
-    color: #e20303;
-    display: block;
-
-  }
-  
-  
 </style>
